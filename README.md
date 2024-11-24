@@ -1,4 +1,4 @@
-This tool allows you to extract the text from the questions in the game "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl)", and then easily reinsert it. The pointer table will be updated automatically.
+This tool allows you to extract the text from the questions in the game "Joshua & the Battle of Jericho (USA) (v6.0) (Unl).nes", and then easily reinsert it. The pointer table will be updated automatically.
 The tool can be found here: https://github.com/KodingBTW/hexstring
 
 ## Usage
@@ -11,9 +11,9 @@ HexString [-d | -e] inFileName outFileName
 Description:
 
 ```
-HexString -d "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl).nes" 0x144F4 0x1F4 0x8010 0x04,0x05,0x06,0x07 "Questions.bin" "decoder.tbl" - Decode text from ROM file.
+HexString -d "Joshua & the Battle of Jericho (USA) (v6.0) (Unl).nes" 0x14388 0x1F4 0x8010 0x04,0x05,0x06,0x07 "Questions.bin" "decoder.tbl" - Decode text from ROM file.
 
-HexString -e "Questions.bin" 0x1007B 4479 0x144F4 0x8010 "Exodus - Journey to the Promised Land (USA) (v4.0) (Unl).nes" "encoder.tbl" - Encode text to ROM file.
+HexString -e "Questions.bin" 0x1007B 430D 0x14388 0x8010 "Joshua & the Battle of Jericho (USA) (v6.0) (Unl).nes" "encoder.tbl" - Encode text to ROM file.
 
 -h - Display help
 
