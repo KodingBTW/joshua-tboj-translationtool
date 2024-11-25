@@ -1,4 +1,4 @@
-echo "Exodus - Questions Extractor"
+echo "Joshua & the Battle of Jericho - Questions Extractor"
 set romName="Joshua & the Battle of Jericho (USA) (v6.0) (Unl).nes"
 set outFile="Questions.bin"
 set tblFile="decoder.tbl"
